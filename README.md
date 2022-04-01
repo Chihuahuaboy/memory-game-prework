@@ -58,8 +58,7 @@ If I had more time to spare, I would spend much of it trying to make the site it
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
-
+https://youtu.be/Y-3Wg3fntRY
 
 ## License
 
