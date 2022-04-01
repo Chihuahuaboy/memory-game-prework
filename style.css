@@ -1,0 +1,93 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: mediumorchid;
+  color:white;
+}
+h1 {
+  font-family: serif, arial, sans-serif;
+}
+h1:hover {
+  color:lightpink;
+}
+p:hover{
+  color:lightblue;
+}
+/*default button option*/
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/*start button */
+#startBtn {
+  background-color:lightgreen;
+  color:white;
+}
+#startBtn:active {
+  background-color:green;
+}
+/*stop btn*/
+#stopBtn {
+  background-color:red;
+  color:white;
+}
+#stopBtn:active{
+  background-color:darkred;
+}
+/* game area buttons*/
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:5px;
+}
+/*individual play buttons Designs*/
+#button1 {
+  background-color:deepskyblue;
+}
+#button2 {
+  background-color:lightpink;
+}
+#button3 {
+  background-color:mediumspringgreen;
+}
+#button4 {
+  background-color:lightyellow;
+}
+/*individual play buttons When Clicked*/
+#button1:active, #button1.lit {
+  background:blue;
+}
+#button2:active, #button2.lit {
+  background:hotpink;
+}
+#button3:active, #button3.lit {
+  background:green;
+}
+#button4:active, #button4.lit {
+  background:yellow;
+}
+/* hides buttons until necessary*/
+.hidden {
+  display:none;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
